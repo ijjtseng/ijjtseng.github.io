@@ -1,1 +1,112 @@
-Hello World
+<!--
+How to get text vertically aligned to the middle of a div?
+What plugins(?) people recommend for smoothscrolling and fade ins that go with Bootstrap?
+Target media screen the best way? Or other bootstrap ways for mobile-desktop?
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Tribute Page</title>
+  <!-- CSS -->
+  <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200|Vollkorn" rel="stylesheet">
+</head>
+
+<body class="nopadding">
+  <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a class="navbar-brand" href="#">
+      <img src="" width="30" height="30" alt="" />
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#Home">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Wanderer">Wanderer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#More">More</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="https://www.nga.gov/">National Gallery of Art</a>
+              <a class="dropdown-item" href="https://www.nga.gov/support.html">Support the Arts</a>
+            </div>
+          </li>
+        </ul>
+    </div>
+  </nav>
+
+
+<div class="container-fluid">
+  <div class="row" id="Home">
+    <div class="col-md-12 hero pos-relative" id="bg-01">
+      <div class="vert-align">
+        <h1>Caspar David <br>Frederick</h1>
+        <p><em>Der Wanderer über dem Nebelmeer</em><br/>A young man stands upon a rocky precipice with his back to the viewer. He is wrapped in a dark green overcoat, and grips a walking stick in his right hand. His hair caught in a wind, the wanderer gazes out on a landscape covered in a thick sea of fog.</p>
+        <p class="source"><a href="https://en.wikipedia.org/wiki/Wanderer_above_the_Sea_of_Fog" target="_blank">Wanderer above the Sea of Fog, Wikipedia. Date accessed: 4 Nov 2017.</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row content-right" id="Wanderer">
+      <div class="col-md-1"></div>
+      <div class="col-md-4">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Lilienstein_herbstabend.jpeg" class="img-responsive" >
+      </div>
+      <div class="col-md-6 pos-relative">
+        <div class="vert-align2">
+          <p>The painting is composed of various elements from the Elbe Sandstone Mountains in Saxony and Bohemia. The Elbe Sandstone Mountains is a mountain range straddling the border between the state of Saxony in southeastern Germany and the North Bohemian region of the Czech Republic, with about three-quarters of the area lying on the German side. The mountains are also referred to as Saxon Switzerland and Bohemian Switzerland in both German and Czech or simply combined as Saxon-Bohemian Switzerland.</p>
+          <p class="source"><a href="https://en.wikipedia.org/wiki/Elbe_Sandstone_Mountains" target="_blank">Elbe Sandstone Mountains, Wikipedia. Date accessed: 4 Nov 2017.</a></p>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+  </div>
+
+  
+
+
+
+<div class="row" id="More">
+  <div class="col-md-12 embed-responsive embed-responsive-16by9 bg-black">
+      <iframe class="embed-responsive-item" width="100%" height="100%" src="https://www.youtube.com/embed/XkcHktjqI1s" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 footer">
+    <p>Info here.</p>
+  </div>
+</div>
+
+</div>
+
+
+
+
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
