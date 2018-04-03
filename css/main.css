@@ -36,6 +36,7 @@ h1 {
   text-transform: uppercase;
   text-align: left;
 }
+
 div {
   margin: 0px;
 }
@@ -110,7 +111,14 @@ div {
 
 .footer {
   padding-top:2em;
-  background-color: #000;
+  background-color: #fff;
   min-height:200px;
-
+    border-top: 1px solid #d9d9d9;
+    font-size: .8em;
 }
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
