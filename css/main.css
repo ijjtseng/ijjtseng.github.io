@@ -1,116 +1,43 @@
-* {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  outline: 0;
+body {
+    margin: 60px auto;
+    width: 70%;
 }
-
-.body {
-  background-color: #000;
-  color:#fff;
-  padding: 0;
-  margin: 0;
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
 }
-
-
-p {
-  font-family: 'Oswald', sans-serif;
-  color: #fff;
-  font-size: 1em;
-  letter-spacing: 1px;
-
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
 }
-
-p.source {
-  font-size: 9px;
-  letter-spacing: 0;
+a {
+    text-decoration: none;
+    color: #999;
 }
-
-
+a:hover {
+    text-decoration: underline;
+}
 h1 {
-  text-align: center;
-  text-transform: uppercase;
-  font-family: 'Vollkorn', /* 'Crimson Text' */ serif;
-  font-size: 4em;
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  text-align: left;
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-div {
-  margin: 0px;
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
 }
-
-.navbar-nav li {
-   list-style: none;
-   display: inline-block;
-   margin: auto 8px;
-   font-family: 'Oswald', /* 'Crimson Text' */ serif;
-   text-transform: uppercase;
-   letter-spacing: 3px;
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
 }
 
-.navbar-nav li a{
-  text-decoration: none;
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
 }
 
-.hero {
-  background-color: #000;
-  min-height: 840px;
-  color: #fff;
-  width: 100%;
-}
-
-.pos-relative {
-  position: relative;
-}
-
-.vert-align {
-  position: absolute;
-  top: 35%;
-  left: 5%;
-  width: 45%;
-}
-
-.vert-align2{
-  position: absolute;
-  top: 8%;
-  left: 8%;
-  width: 100%;
-}
-
-#bg-01 {
-  background: url('https://upload.wikimedia.org/wikipedia/commons/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg');
-  background-size:cover;
-  background-position:center center;
-  background-attachment:fixed;
-}
-
-#bg-03 {
-  background: url('https://www.youtube.com/embed/XkcHktjqI1s');
-  background-size:cover;
-  background-position:center center;
-  background-attachment:fixed;
-}
-
-
-.content-right {
-  min-height: 500px;
-   padding-top: 5em;
-
-}
-
-.content-left {
-  min-height: 500px;
-  padding-top: 5em;
-}
-
-.content-right p, .content-left p {
-  color: #000;
-}
-
-.footer {
-  padding-top:2em;
-  background-color: #000;
-  min-height:200px;
-
+ul.posts li {
+    list-style: none;
 }
