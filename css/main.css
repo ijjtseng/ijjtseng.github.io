@@ -157,7 +157,7 @@ nav {
 }
 
 #bg-01 {
-  background: rgba(0, 0, 0, 0.1), url('https://upload.wikimedia.org/wikipedia/commons/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg');
+  background: url('https://upload.wikimedia.org/wikipedia/commons/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg');
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
