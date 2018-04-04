@@ -31,7 +31,7 @@ a:hover {
 
 p, ul, li {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
-  color: #737373;
+  color: #595959;
   font-size: 1em;
   letter-spacing: 1px;
   font-weight: 300;
@@ -126,7 +126,7 @@ nav {
   width: 100%;
 }
 
-.hero p, ul, li {
+.hero p, .hero ul, .hero li {
   color: #fff;
 }
 
