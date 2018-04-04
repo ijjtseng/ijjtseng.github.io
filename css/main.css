@@ -28,7 +28,7 @@ a:hover {
   text-decoration: underline;
 }
 
-p, li {
+p, ul, li {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   color: #737373;
   font-size: 1em;
