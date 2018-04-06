@@ -217,14 +217,17 @@ footer .copyright {
 
 /* PROJECTS */
 
-.projects h1, .projects p {
+.projects h1 {
   color: #000;
   margin-top: 4em;
 }
 
+.projects p {
+  color: #000;
+}
 
 #project-01 {
-  background: url('images/GOPPopularity-Graphic.jpg') no-repeat top;
+  background: url('/images/GOPPopularity-Graphic.jpg') no-repeat top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -245,8 +248,13 @@ footer .copyright {
     width: 60%;
   }
 
-  .projects h1, .projects p {
-    margin-top: 0;
+  .projects h1, {
+    margin-top: 4em;
+  }
+
+  h1 {
+    font-size: 3em;
+    letter-spacing: 3px;
   }
 
   #project-01 {
