@@ -157,14 +157,7 @@ nav {
   width: 100%;
 }
 
-#bg-01 {
-  background: url('https://upload.wikimedia.org/wikipedia/commons/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg');
-  background-size:contain;
-  background-position: top;
-  background-attachment:fixed;
-  background-repeat: no-repeat;
 
-}
 
 #bg-03 {
   background: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/8d96b848836913.58a360d38dbf3.jpg');
@@ -213,16 +206,35 @@ footer .copyright {
   font-size: .75em;
 }
 
+#bg-01 {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg') no-repeat center center;
+  background-size:cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment:fixed;
+  width: 100%;
+  height: 100%;
+  display: block;
+  left: 0;
+  top: 0;
+}
+
 /* PROJECTS */
 
 
 #project-01 {
-  background: url('/images/GOPPopularity-Graphic.jpg');
-  background-size:contain;
-  background-position: top;
+  background: url('/images/GOPPopularity-Graphic.jpg') no-repeat center center;
+  background-size:cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-attachment:fixed;
-  background-repeat: no-repeat;
-
+  width: 100%;
+  height: 100%;
+  display: block;
+  left: 0;
+  top: 0;
 }
 
 
@@ -238,8 +250,7 @@ footer .copyright {
   }
 
   #bg-01, #project-01 {
-    background-size:cover;
-    background-position: center center;
+    
   }
 
 
