@@ -216,7 +216,6 @@ footer .copyright {
 
 #project-01 {
   background: url('/images/GOPPopularity-Graphic.jpg');
-  width: 100%;
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
@@ -233,6 +232,11 @@ footer .copyright {
   .hero-content {
     width: 60%;
   }
+
+  #bg-01, #project-01 {
+    background-size:contain;
+  }
+
 
 
 }
