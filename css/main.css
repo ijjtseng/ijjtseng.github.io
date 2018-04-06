@@ -160,7 +160,7 @@ nav {
 #bg-01 {
   background: url('https://upload.wikimedia.org/wikipedia/commons/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg');
   background-size:contain;
-  background-position:center center;
+  background-position: top;
   background-attachment:fixed;
   background-repeat: no-repeat;
 
@@ -219,7 +219,7 @@ footer .copyright {
 #project-01 {
   background: url('/images/GOPPopularity-Graphic.jpg');
   background-size:contain;
-  background-position:center center;
+  background-position: top;
   background-attachment:fixed;
   background-repeat: no-repeat;
 
@@ -239,6 +239,7 @@ footer .copyright {
 
   #bg-01, #project-01 {
     background-size:cover;
+    background-position: center center;
   }
 
 
