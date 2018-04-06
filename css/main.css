@@ -208,34 +208,30 @@ footer .copyright {
 
 #bg-01 {
   background: url('https://upload.wikimedia.org/wikipedia/commons/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg') no-repeat center center;
-  background-size:cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-attachment:fixed;
-  width: 100%;
-  height: 100%;
-  display: block;
-  left: 0;
-  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* PROJECTS */
 
+.projects h1, .projects p {
+  color: #000;
+  margin-top: 4em;
+}
+
 
 #project-01 {
-  background: url('/images/GOPPopularity-Graphic.jpg') no-repeat center center;
-  background-size:cover;
+  background: url('images/GOPPopularity-Graphic.jpg') no-repeat top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: 170%;
   background-attachment:fixed;
-  width: 100%;
-  height: 100%;
-  display: block;
-  left: 0;
-  top: 0;
 }
+
 
 
 /* TABLET & DESKTOP */
@@ -249,8 +245,13 @@ footer .copyright {
     width: 60%;
   }
 
-  #bg-01, #project-01 {
-    
+  .projects h1, .projects p {
+    margin-top: 0;
+  }
+
+  #project-01 {
+    background-size: 70%;
+    background-position: center center;
   }
 
 
