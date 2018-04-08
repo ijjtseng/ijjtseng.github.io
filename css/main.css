@@ -118,7 +118,7 @@ nav {
 
 .hero {
   background-color: #000;
-  min-height: 840px;
+  max-height: 800px;
   color: #fff;
   width: 100%;
 }
@@ -166,26 +166,13 @@ nav {
 #bg-03 {
   background: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/8d96b848836913.58a360d38dbf3.jpg');
   width: 100%;
-  background-size:cover !important;
+  background-size:cover;
   background-position:center center;
   background-attachment:fixed;
 }
 
 
-.content-right {
-  min-height: 500px;
-   padding-top: 5em;
 
-}
-
-.content-left {
-  min-height: 500px;
-  padding-top: 5em;
-}
-
-.content-right p, .content-left p {
-  color: #000;
-}
 
 footer {
   padding:2em;
@@ -214,10 +201,10 @@ footer .copyright {
 #bg-01 {
   background: url('https://upload.wikimedia.org/wikipedia/commons/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg') no-repeat center center;
   width: 100%;
-  -webkit-background-size: cover !important;
-  -moz-background-size: cover !important;
-  -o-background-size: cover !important;
-  background-size: cover !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -225,7 +212,7 @@ footer .copyright {
 
 .projects h1 {
   color: #000;
-  margin-top: 8em;
+  margin-top: 7em;
 }
 
 .projects p {
@@ -234,9 +221,9 @@ footer .copyright {
 
 #project-01 {
   background: url('/images/GOPPopularity-Graphic.jpg') no-repeat top;
-  -webkit-background-size: cover !important;
-  -moz-background-size: cover !important;
-  -o-background-size: cover !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: 170%;
   background-attachment:fixed;
 }
