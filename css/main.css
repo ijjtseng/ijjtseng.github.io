@@ -114,9 +114,6 @@ nav {
 }
 
 
-
-
-
 .hero {
   background-color: #000;
   min-height: 840px;
@@ -226,7 +223,7 @@ footer .copyright {
 }
 
 #project-01 {
-  background: url('/images/GOPPopularity-Graphic_exlarge1x1.jpg') no-repeat top;
+  background: url('/images/GOPPopularity-Graphic.jpg') no-repeat top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -241,6 +238,10 @@ footer .copyright {
 
   .container-flex-child {
     width: 250px;
+  }
+
+  .hero {
+    min-height: 840px;
   }
 
   .hero-content {
