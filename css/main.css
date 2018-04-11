@@ -119,13 +119,13 @@ nav {
 
 .hero {
   background-color: #000;
-  min-height: 800px;
+  min-height: 880px;
   color: #fff;
   width: 100%;
 }
 
 .hero-content {
-  width: 100%;
+  width: 80%;
 }
 
 .hero p, .hero ul, .hero li {
