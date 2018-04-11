@@ -253,7 +253,8 @@ footer .copyright {
 
   #project-01 {
     background-size: 60%;
-    background-position: center center;
+    background: url('/images/GOPPopularity-Graphic.jpg') no-repeat center center;
+
   }
 
 
