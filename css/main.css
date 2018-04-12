@@ -224,10 +224,10 @@ footer .copyright {
 
 #project-01 {
   background: url('/images/GOPPopularity-Graphic.jpg') no-repeat top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: 100%;
+  -webkit-background-size: 170%;
+  -moz-background-size: 170%;
+  -o-background-size: 170%;
+  background-size: 170%;
   background-attachment:fixed;
 }
 
@@ -258,10 +258,10 @@ footer .copyright {
   }
 
   #project-01 {
-    background-size: 70%;
-    -webkit-background-size: 70%;
-    -moz-background-size: 70%;
-    -o-background-size: 70%;
+    background-size: 70% 70%;
+    -webkit-background-size: 70% 70%;
+    -moz-background-size: 70% 70%;
+    -o-background-size: 70% 70%;
     background-position: center center;
 
 
