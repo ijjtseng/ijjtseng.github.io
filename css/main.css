@@ -258,10 +258,7 @@ footer .copyright {
   }
 
   #project-01 {
-    background-size: 70% 70%;
-    -webkit-background-size: 70% 70%;
-    -moz-background-size: 70% 70%;
-    -o-background-size: 70% 70%;
+    background-size: 70%;
     background-position: center center;
 
 
