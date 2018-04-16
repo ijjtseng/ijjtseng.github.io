@@ -53,12 +53,12 @@ h1, h2 {
 h1 {
   font-size: 2.5em;
   letter-spacing: 4px;
-  font-weight: 400;
+  font-weight: 500;
   color: #fff;
 }
 
 h2 {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1em;
   color: #262626;
   line-height: 1.5em;
@@ -116,6 +116,13 @@ nav {
 
 .hero {
   background-color: #000;
+  height: 840px;
+  color: #fff;
+  width: 100%;
+}
+
+.hero-project {
+  background-color: #000;
   height: 520px;
   color: #fff;
   width: 100%;
@@ -134,11 +141,6 @@ nav {
   letter-spacing: 0;
   color: #d9d9d9;
 }
-
-.width-100 {
-  width: 100%;
-}
-
 
 
 .pos-relative {
@@ -231,6 +233,23 @@ footer .copyright {
   background-attachment:fixed;
 }
 
+#project-02 {
+  background: url('/images/SchoolWalkOut-Graphics.jpg') no-repeat top;
+  -webkit-background-size: 170%;
+  -moz-background-size: 170%;
+  -o-background-size: 170%;
+  background-size: 170%;
+  background-attachment:fixed;
+}
+
+#project-02b {
+  background: url('/images/SchoolWalkOut-04ALL.jpg') no-repeat top;
+  -webkit-background-size: 170%;
+  -moz-background-size: 170%;
+  -o-background-size: 170%;
+  background-size: 170%;
+  background-attachment:fixed;
+}
 
 
 /* TABLET & DESKTOP */
@@ -240,7 +259,7 @@ footer .copyright {
     width: 250px;
   }
 
-  .hero {
+  .hero-project {
     min-height: 840px;
   }
 
@@ -262,13 +281,15 @@ footer .copyright {
     letter-spacing: 3px;
   }
 
-  #project-01 {
+  #project-01, #project-02 {
     background-size: 70%;
     background-position: center center;
-
-
   }
 
+  #project-02b {
+    background-size: cover;
+    background-position: center
+  }
 
 
 }
