@@ -251,6 +251,16 @@ footer .copyright {
   background-attachment:fixed;
 }
 
+#project-03 {
+  background: url('/images/KimTrumpInsults_16x9.gif') no-repeat top;
+  -webkit-background-size: 170%;
+  -moz-background-size: 170%;
+  -o-background-size: 170%;
+  background-size: 170%;
+  background-attachment:fixed;
+}
+
+
 
 /* TABLET & DESKTOP */
 @media screen and (min-width: 640px) {
@@ -281,7 +291,7 @@ footer .copyright {
     letter-spacing: 3px;
   }
 
-  #project-01, #project-02 {
+  #project-01, #project-02, #project-03 {
     background-size: 70%;
     background-position: center center;
   }
