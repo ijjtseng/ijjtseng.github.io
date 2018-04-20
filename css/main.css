@@ -116,7 +116,7 @@ nav {
 
 .hero {
   background-color: #fff;
-  height: 700px;
+  min-height: 700px;
   color: #000;
   width: 100%;
 }
@@ -279,6 +279,13 @@ footer .copyright {
   background-size: 90%;
 }
 
+#project-05 {
+  background: url('/images/Screen-Shot-2018-04-04-at-1.03.14-PM_1600.jpg') no-repeat center center;
+  -webkit-background-size: 90%;
+  -moz-background-size: 90%;
+  -o-background-size: 90%;
+  background-size: 90%;
+}
 
 
 /* TABLET & DESKTOP */
@@ -288,8 +295,8 @@ footer .copyright {
     width: 250px;
   }
 
-  .hero-project {
-    min-height: 840px;
+  .hero {
+    min-height: 400px;
   }
 
   .hero-content {
@@ -310,7 +317,7 @@ footer .copyright {
     letter-spacing: 3px;
   }
 
-  #project-01, #project-02, #project-03, #project-04, #project-05 {
+  #project-01, #project-02, #project-03, #project-04, #project-05, #project-07 {
     background-size: 80%;
     background-position: center center;
   }
@@ -319,5 +326,12 @@ footer .copyright {
     background-size: cover;
   }
 
+  #project-06 {
+    background-position: center center;
+    -webkit-background-size: 60%;
+    -moz-background-size: 60%;
+    -o-background-size: 60%;
+    background-size: 60%;
+  }
 
 }
