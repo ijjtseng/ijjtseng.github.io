@@ -129,7 +129,7 @@ nav {
 }
 
 .hero-content {
-  width: 80%;
+  width: 100%;
 }
 
 .hero p, .hero ul, .hero li {
@@ -269,6 +269,14 @@ footer .copyright {
   background-attachment:fixed;
 }
 
+#project-05 {
+  background: url('/images/001SignUp-Page-LayoutArtboard 1.jpg') no-repeat top;
+  -webkit-background-size: 170%;
+  -moz-background-size: 170%;
+  -o-background-size: 170%;
+  background-size: 170%;
+}
+
 
 
 /* TABLET & DESKTOP */
@@ -300,7 +308,7 @@ footer .copyright {
     letter-spacing: 3px;
   }
 
-  #project-01, #project-02, #project-03, #project-04 {
+  #project-01, #project-02, #project-03, #project-04, #project-05 {
     background-size: 70%;
     background-position: center center;
   }
