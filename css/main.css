@@ -54,7 +54,7 @@ h1 {
   font-size: 2.5em;
   letter-spacing: 4px;
   font-weight: 500;
-  color: #fff;
+  color: #000;
 }
 
 h2 {
@@ -115,9 +115,9 @@ nav {
 
 
 .hero {
-  background-color: #000;
-  height: 840px;
-  color: #fff;
+  background-color: #fff;
+  height: 700px;
+  color: #000;
   width: 100%;
 }
 
@@ -127,7 +127,7 @@ nav {
 }
 
 .hero p, .hero ul, .hero li {
-  color: #fff;
+  color: #000;
 }
 
 .hero p.source {
