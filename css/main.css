@@ -122,10 +122,8 @@ nav {
 }
 
 .hero-project {
-  background-color: #000;
-  height: 520px;
-  color: #fff;
-  width: 100%;
+  background-color: #fff;
+  position: fixed;
 }
 
 .hero-content {
