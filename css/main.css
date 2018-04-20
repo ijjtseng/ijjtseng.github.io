@@ -269,7 +269,6 @@ footer .copyright {
   -moz-background-size: 170%;
   -o-background-size: 170%;
   background-size: 170%;
-  background-attachment:fixed;
 }
 
 
@@ -304,7 +303,7 @@ footer .copyright {
   }
 
   #project-01, #project-02, #project-03, #project-04, #project-05 {
-    background-size: 70%;
+    background-size: 80%;
     background-position: center center;
   }
 
