@@ -121,10 +121,6 @@ nav {
   width: 100%;
 }
 
-.hero-project {
-  background-color: #fff;
-  position: fixed;
-}
 
 .hero-content {
   width: 100%;
@@ -273,6 +269,7 @@ footer .copyright {
   -moz-background-size: 170%;
   -o-background-size: 170%;
   background-size: 170%;
+  background-attachment:fixed;
 }
 
 
