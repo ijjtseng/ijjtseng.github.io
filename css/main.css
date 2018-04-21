@@ -116,7 +116,7 @@ nav {
 
 .hero {
   background-color: #fff;
-  min-height: 700px;
+  min-height: 400px;
   color: #000;
   width: 100%;
 }
@@ -296,7 +296,7 @@ footer .copyright {
   }
 
   .hero {
-    min-height: 400px;
+    min-height: 700px;
   }
 
   .hero-content {
