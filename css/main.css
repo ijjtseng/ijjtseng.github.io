@@ -307,6 +307,14 @@ footer .copyright {
   background-size: 170%;
 }
 
+#project-11 {
+  background: url('/images/Behance-1400_1-1600.jpg') no-repeat top;
+  -webkit-background-size: 170%;
+  -moz-background-size: 170%;
+  -o-background-size: 170%;
+  background-size: 170%;
+}
+
 
 
 /* TABLET & DESKTOP */
