@@ -269,18 +269,26 @@ footer .copyright {
 
 #project-06 {
   background: url('/images/HouseKeyRaces-Animation_Social.gif') no-repeat center center;
-  -webkit-background-size: 90%;
-  -moz-background-size: 90%;
-  -o-background-size: 90%;
-  background-size: 90%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
 }
 
 #project-07 {
   background: url('/images/Screen-Shot-2018-04-04-at-1.03.14-PM_1600.jpg') no-repeat center center;
-  -webkit-background-size: 90%;
-  -moz-background-size: 90%;
-  -o-background-size: 90%;
-  background-size: 90%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+}
+
+#project-08 {
+  background: url('/images/BC-BankofAmerica-TheBigPicture_MOCK2_1600.jpg') no-repeat center center;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
 }
 
 
@@ -313,7 +321,7 @@ footer .copyright {
     letter-spacing: 3px;
   }
 
-  #project-01, #project-02, #project-03, #project-04, #project-05, #project-07 {
+  #project-01, #project-02, #project-03, #project-04, #project-05, #project-07, #project-08 {
     background-size: 80%;
     background-position: center center;
   }
