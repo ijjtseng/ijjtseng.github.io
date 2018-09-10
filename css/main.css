@@ -366,16 +366,35 @@ footer .copyright {
     background-size: 60%;
   }
 
-}
+  .container-flex {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: flex-start;
+    height: 900px;
+  }
 
-@media screen and (min-width: 640px) {
+  .container-intro {
+    grid-template-columns: 20px 15% 20% 5% 20% 15% 20px;
+    grid-template-rows: 120px 100px 160px 80px 100px 160px;
+  }
 
-.container-flex {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: flex-start;
-  align-items: baseline;
-  align-content: flex-start;
-  height: 900px;
-}
+
+  .intro-text1 { grid-area: 3 / 3 / 4 / 5; }
+  .intro-text2 { grid-area: 6 / 4 / 7 / 6; }
+  .intro-gfx1 {
+    grid-area: 2 / 4 / 4 / 7;
+    z-index: -1;
+    background: url('/images/GOPPopularity-Graphic.jpg') center center no-repeat;
+    background-size:cover;
+  }
+  .intro-gfx2 {
+    grid-area: 5 / 2 / 7 / 5;
+    z-index: -1;
+    background: url('/images/GOPPopularity-Graphic.jpg') center center no-repeat;
+    background-size:cover;
+  }
+
+
 }
