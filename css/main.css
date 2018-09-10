@@ -376,6 +376,7 @@ footer .copyright {
   }
 
   .container-intro {
+    display: grid;
     grid-template-columns: 20px 15% 20% 5% 20% 15% 20px;
     grid-template-rows: 120px 100px 160px 80px 100px 160px;
   }
