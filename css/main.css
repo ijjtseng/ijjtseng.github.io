@@ -318,6 +318,30 @@ footer .copyright {
   background-size: 170%;
 }
 
+.container-intro {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 40px 100px 15px 60px 100px 15px 60px;
+  grid-template-areas:
+    "."
+    "intro-gfx1"
+    "."
+    "intro-text1"
+    "intro-gfx2"
+    "."
+    "intro-text2"
+}
+
+#intro-gfx1{
+  background: url('/images/GOPPopularity-Graphic.jpg') center center no-repeat;
+  background-size:cover;
+}
+
+#intro-gfx2 {
+  background: url('/images/GOPPopularity-Graphic.jpg') center center no-repeat;
+  background-size:cover;
+}
+
 
 
 /* TABLET & DESKTOP */
@@ -376,7 +400,6 @@ footer .copyright {
   }
 
   .container-intro {
-    display: grid;
     grid-template-columns: 20px 15% 20% 5% 20% 15% 20px;
     grid-template-rows: 120px 100px 160px 80px 100px 160px;
   }
@@ -387,15 +410,12 @@ footer .copyright {
   .intro-gfx1 {
     grid-area: 2 / 4 / 4 / 7;
     z-index: -1;
-    background: url('/images/GOPPopularity-Graphic.jpg') center center no-repeat;
-    background-size:cover;
   }
   .intro-gfx2 {
     grid-area: 5 / 2 / 7 / 5;
     z-index: -1;
-    background: url('/images/GOPPopularity-Graphic.jpg') center center no-repeat;
-    background-size:cover;
   }
+
 
 
 }
