@@ -352,25 +352,9 @@ footer .copyright {
 
 /* TABLET & DESKTOP */
 
-@media screen and (min-width: 440px) {
-  .container-flex {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: flex-start;
-    align-items: baseline;
-    align-content: flex-start;
-    height: 1600px;
-  }
-}
-
 @media screen and (min-width: 540px) {
   .container-flex {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: flex-start;
-    align-items: baseline;
-    align-content: flex-start;
-    height: 1200px;
+    height: 1600px;
   }
 }
 
@@ -425,7 +409,7 @@ footer .copyright {
     justify-content: flex-start;
     align-items: baseline;
     align-content: flex-start;
-    height: 900px;
+    height: 1200px;
   }
 
   .container-intro {
@@ -448,6 +432,16 @@ footer .copyright {
 
   .intro-text1, .intro-text2 { margin: 0; }
 
+}
 
+@media screen and (min-width: 840px) {
+  .container-flex {
+    height: 1000px;
+  }
+}
 
+@media screen and (min-width: 1040px) {
+  .container-flex {
+    height: 900px;
+  }
 }
