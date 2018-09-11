@@ -102,11 +102,11 @@ nav {
 }
 
 .container-flex {
-  display: flex;
-  flex-flow: column wrap;
+  display: block;
+  /*flex-flow: column wrap;
   justify-content: flex-start;
   align-items: baseline;
-  align-content: flex-start;
+  align-content: flex-start;*/
 }
 
 .container-flex-child {
@@ -330,7 +330,14 @@ footer .copyright {
 }
 
 .intro-text1, .intro-text2 { margin: -25px auto 15px; }
-.intro-gfx1, .intro-gfx2 { width: 100%; margin-top: 35px; z-index: 0; }
+.intro-gfx1, .intro-gfx2 {
+    height: 300px;
+    width: 100%;
+    margin-top: 65px;
+    z-index: -1;
+}
+
+.intro-gfx2 { margin-bottom: 10px; }
 
 #intro-gfx1{
   background: url('/images/GOPPopularity-Graphic.jpg') center center no-repeat;
@@ -401,7 +408,7 @@ footer .copyright {
   .container-intro {
     display: grid;
     grid-template-columns: 5% 15% 27% 6% 27% 15% 5%;
-    grid-template-rows: 120px 100px 240px 80px 100px 240px;
+    grid-template-rows: 80px 120px 260px 60px 120px 260px 5%;
   }
 
 
