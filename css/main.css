@@ -328,12 +328,12 @@ footer .copyright {
 
 #intro-gfx1{
   background: url('/images/GOPPopularity-Graphic.jpg') center center no-repeat;
-  background-size:cover;
+  background-size: cover;
 }
 
 #intro-gfx2 {
   background: url('/images/GOPPopularity-Graphic.jpg') center center no-repeat;
-  background-size:cover;
+  background-size: cover;
 }
 
 
@@ -393,6 +393,7 @@ footer .copyright {
   }
 
   .container-intro {
+    display: grid;
     grid-template-columns: 5% 15% 27% 6% 27% 15% 5%;
     grid-template-rows: 120px 100px 210px 80px 100px 210px;
   }
