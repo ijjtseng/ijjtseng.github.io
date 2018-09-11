@@ -103,10 +103,7 @@ nav {
 
 .container-flex {
   display: block;
-  flex-flow: column wrap;
-  justify-content: flex-start;
-  align-items: baseline;
-  align-content: flex-start;
+
 }
 
 .container-flex-child {
@@ -352,12 +349,6 @@ footer .copyright {
 
 /* TABLET & DESKTOP */
 
-@media screen and (min-width: 540px) {
-  .container-flex {
-    height: 1600px;
-  }
-}
-
 @media screen and (min-width: 640px) {
 
   .container-flex-child {
@@ -409,7 +400,7 @@ footer .copyright {
     justify-content: flex-start;
     align-items: baseline;
     align-content: flex-start;
-    height: 1200px;
+    height: 1600px;
   }
 
   .container-intro {
@@ -434,13 +425,13 @@ footer .copyright {
 
 }
 
-@media screen and (min-width: 840px) {
+@media screen and (min-width: 920px) {
   .container-flex {
-    height: 1000px;
+    height: 1200px;
   }
 }
 
-@media screen and (min-width: 1040px) {
+@media screen and (min-width: 1275px) {
   .container-flex {
     height: 900px;
   }
