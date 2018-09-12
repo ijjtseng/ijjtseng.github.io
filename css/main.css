@@ -337,13 +337,13 @@ footer .copyright {
 
 
 #intro-gfx1{
-  background: url('/images/GOPPopularity-Graphic.jpg') center center no-repeat;
-  background-size: cover;
+  background: url('/images/KimTrumpInsults_16x9.gif') center center no-repeat;
+  background-size: contain; /*cover*/
 }
 
 #intro-gfx2 {
-  background: url('/images/GOPPopularity-Graphic.jpg') center center no-repeat;
-  background-size: cover;
+  background: url('/images/SchoolWalkOut-02Animation.gif') center center no-repeat;
+  background-size: contain; /*cover*/
 }
 
 
@@ -417,9 +417,9 @@ footer .copyright {
 
   .container-intro {
     display: grid;
-    grid-template-columns: 5% 20% 15% 45% 5% 5% 5%; /* 5% 15% 27% 6% 27% 15% 5% */
-    grid-template-rows: 80px 120px 260px; /* 80px 120px 260px 60px 120px 260px 5%;*/
-    margin-bottom: 1rem;
+    grid-template-columns: 5% 15% 27% 6% 27% 15% 5%; /*  5% 20% 15% 45% 5% 5% 5%*/
+    grid-template-rows: 80px 120px 260px 60px 120px 260px 5%; /* 80px 120px 260px;*/
+    margin-bottom: 6rem;
   }
 
 
