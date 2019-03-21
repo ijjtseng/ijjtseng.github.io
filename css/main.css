@@ -439,14 +439,14 @@ footer .copyright {
 
 }
 
-@media screen and (min-width: 920px) {
+/* @media screen and (min-width: 920px) {
   .container-flex {
     height: 1300px;
   }
   .container-flex-child {
     width: 31%;
   }
-}
+} */
 
 /* @media screen and (min-width: 1000px) {
   .container-flex {
