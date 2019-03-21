@@ -448,11 +448,11 @@ footer .copyright {
   }
 }
 
-@media screen and (min-width: 1000px) {
+/* @media screen and (min-width: 1000px) {
   .container-flex {
     height: 1200px;
   }
   .container-flex-child {
     width: 24%;
   }
-}
+} */
