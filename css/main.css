@@ -115,6 +115,15 @@ nav {
   width:100%;
 }
 
+.project-name {
+  text-decoration: none;
+  font-weight:300;
+  margin-top: 16px;
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+
 
 .hero {
   background-color: #fff;
@@ -341,6 +350,7 @@ footer .copyright {
 
   .container-flex-child {
     width: 45%;
+    margin: 1rem;
   }
 }
 
@@ -388,7 +398,7 @@ footer .copyright {
   }
 
   .container-flex {
-    height: 1600px;
+    height: 1430px;
   }
 
   .container-flex-child {
