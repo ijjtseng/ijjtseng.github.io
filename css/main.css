@@ -351,8 +351,8 @@ footer .copyright {
   .container-flex {
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-evenly;
-    align-items: baseline;
+    justify-content: flex-start;
+    align-items: flex-start;
     align-content: space-between;
     height: 2200px;
   }
