@@ -297,13 +297,6 @@ footer .copyright {
   background-size: 170%;
 }
 
-#project-11 {
-  background: url('/images/11_PresSpeechLib.jpg') no-repeat top;
-  -webkit-background-size: 170%;
-  -moz-background-size: 170%;
-  -o-background-size: 170%;
-  background-size: 170%;
-}
 
 #project-12 {
   background: url('/images/12_TrumpClinton-Faceoff.jpg') no-repeat top;
@@ -315,19 +308,19 @@ footer .copyright {
 
 #project-16 {
   background: url('/images/16_HP-NatEmSpeech.gif') no-repeat top;
-  -webkit-background-size: 170%;
-  -moz-background-size: 170%;
-  -o-background-size: 170%;
-  background-size: 170%;
+  -webkit-background-size: 90%;
+  -moz-background-size: 90%;
+  -o-background-size: 90%;
+  background-size: 90%;
 }
 
 
 #project-18 {
-  background: url('/images/18_sotu-looped.gif') no-repeat top;
-  -webkit-background-size: 170%;
-  -moz-background-size: 170%;
-  -o-background-size: 170%;
-  background-size: 170%;
+  background: url('/images/18_sotu-looped.gif') no-repeat center;
+  -webkit-background-size: 80%;
+  -moz-background-size: 80%;
+  -o-background-size: 80%;
+  background-size: 80%;
 }
 
 
