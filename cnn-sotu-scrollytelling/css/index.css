@@ -1,0 +1,361 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body, {
+  margin: 0;
+  padding: 0;
+}
+
+img.mocknavbar {
+  position:fixed;
+  top: 0;
+  z-index:999;
+}
+
+div.interactive-container h1 {
+  font-family: CNN Condensed,CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+  font-size: 32px;
+  letter-spacing: -.01em;
+  line-height: 1.21429;
+  padding: 24px 0 0;
+  font-weight: 500;
+  margin: 4rem auto 0;
+  text-align: center;
+  width: 100%;
+}
+
+
+h3 {
+  font-size: 32px;
+  line-height: 40px;
+  margin: 32px 0 5px;
+  font-weight: 500;
+  display: block;
+  padding: 0;
+  font-family: CNN Condensed,CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+  font-feature-settings: "kern";
+  text-rendering: optimizeLegibility;
+  color: #262626;
+}
+
+p, ul, li {
+  margin-bottom: 15px;
+  font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+  font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+  font-size: 1.2rem;
+  line-height: 1.6666666667;
+  color: #262626;
+}
+
+ul {
+  margin: 2rem 18px;
+  columns: 1;
+  -webkit-columns: 1;
+  -moz-columns: 1;
+}
+
+li {   font-size: 1rem; }
+
+img { width: 100%; }
+
+
+.story-breakout, .story-breakout-wide {
+  padding: 16px;
+  margin: 18px auto;
+  background-color: #fff;
+  width: 100%;
+}
+
+
+.hidedesktop-showmobile {
+  display: inline;
+}
+
+.hidemobile-showdesktop {
+  display: none;
+}
+
+.fullwidth-image-bg-caption {
+  font-size: 12px;
+  color: #1a1a1a;
+  font-weight: 300;
+  width: 80%;
+  padding-top: 1rem;
+  line-height: 1.8;
+}
+
+.fullwidth-image-bg-caption span { background-color: #FFDC71; padding: 0 3px;}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.before-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.after-img {
+  transition: .5s ease;
+  opacity: .4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%
+  height: auto;
+  transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+}
+
+.dark-theme {
+  background-color: #000;
+  color: #fff;
+}
+
+
+
+
+/* ---------------------------
+scrollama MOBILE
+------------------------------*/
+@media screen and (max-width: 640px) {
+
+#scroll {
+  position: static;
+}
+
+.scroll__graphic {
+  position: static;
+  width: 100%
+}
+
+.chart {
+  width: 100%
+  position: absolute;
+
+}
+
+.scroll__text {
+  position: static;
+  width: 100%;
+}
+
+}
+
+/* ---------------------------------------
+QUOTES & FLOATS
+------------------------------------------*/
+
+
+.rightside-floating-element, .leftside-floating-element, .leftside-floating-element-photo, .rightside-floating-element-photo {
+    width:100%;
+    display:block;
+    margin:0 auto 1.25rem;
+    text-align: center;
+}
+
+
+.container-block-quote {
+  width: 100%;
+  font-family: CNN Condensed, CNN, Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+  display: block;
+  text-align: left;
+  margin: 1rem auto;
+  padding: 2.5rem 0 1.25rem 0;
+  background-size: 100%;
+
+}
+
+.container-block-quote-aside {
+  width: 100%;
+  font-family: CNN Condensed, CNN, Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+  display: block;
+  text-align: left;
+  margin: auto;
+  padding: 2.5rem 0 1.25rem 0;
+  background-size: 100%;
+}
+
+.fullwidth-block-quote-quote {
+  margin:auto;
+  width: 90%;
+  position: relative;
+
+}
+
+.fullwidth-block-quote-quote:before {
+  content: "\201C";
+  font-size: 4rem;
+  color: #262626;
+  display: block;
+  width: 90%;
+  top: -48px;
+  position: absolute;
+}
+
+.fullwidth-block-quote-black {
+  font-size: 1.75rem;
+  line-height: 1.5;
+  font-weight: 200;
+  color: #262626;
+}
+
+.fullwidth-block-source {
+  font-size: .75rem;
+  font-weight: 200;
+  color: #a6a6a6;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.fullwidth-block-source:before {
+  font-size: .75rem;
+  font-weight: 200;
+  color: #a6a6a6;
+  content: "\2014"
+}
+
+
+
+/*---------------------
+ DESKTOP
+ -----------------*/
+
+
+@media screen and (min-width: 640px) {
+
+  div.interactive-container h1 {
+    font-size: 56px;
+    width: 80%;
+    margin-top: 6rem;
+  }
+
+  ul {
+    margin: 2rem 24px;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+
+  .hidedesktop-showmobile {
+    display: none;
+  }
+
+  .hidemobile-showdesktop {
+    display: inline;
+  }
+
+  /*------ SCROLLAMA ---------*/
+  #scroll {
+    position: relative;
+
+  }
+
+  .scroll__graphic {
+    position: -webkit-sticky;
+    position: sticky;
+    float: right;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    width: 45%;
+  }
+
+  .chart {
+    position: absolute;
+    right: -1rem;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+
+  .scroll__text {
+    position: relative;
+    max-width: 30rem;
+    width: 50%;
+
+  }
+
+  .scroll__graphic.is-fixed {
+    position: fixed;
+  }
+
+  .scroll__graphic.is-bottom {
+    bottom: 0;
+    top: auto;
+  }
+
+
+  /* ----------- REG ----------*/
+  .story-breakout {
+    margin: 0 auto;
+    width: 68%;
+  }
+
+  .story-breakout-wide {
+    width: 88%;
+    margin: 12rem auto;
+    padding: 0;
+  }
+
+    .leftside-floating-element, .leftside-floating-element-photo {
+        float:left;
+        width:50%;
+        max-width: 300px;
+        display:block;
+        margin:0 0 .25rem 0;
+        position: relative;
+        right: 6rem;
+        margin-right: -4.5rem;
+    }
+    .leftside-floating-element-photo {
+        width:60%;
+        max-width: 500px;
+        text-align: left;
+    }
+
+    .rightside-floating-element, .rightside-floating-element-photo {
+        float:right;
+        width:50%;
+        max-width: 300px;
+        display:block;
+        margin:0 0 .25rem;
+        position: relative;
+        left: 6rem;
+        margin-left: -4.5rem;
+    }
+
+    .rightside-floating-element-photo {
+        width:60%;
+        max-width: 500px;
+        text-align: left;
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 840px) {
+
+  ul {
+    margin: 2rem auto;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    -webkit-column-gap: 48px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 48px; /* Firefox */
+    column-gap: 48px;
+  }
+}

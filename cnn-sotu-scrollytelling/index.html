@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9" lang="en-US"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-US"> <!--<![endif]-->
+<head>
+	<title>The incredible turnover in Trump&#39;s Cabinet in 1 photo</title>
+	<link href="http://www.cnn.com/interactive/2019/02/politics/cnnix-trump-cabinet-changes-photos/" rel="canonical">
+	<link rel="stylesheet" href="https://ix.cnn.io/static/fonts/fonts.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/cnnix-trump-cabinet-changes-photos.min.css"/>
+</head>
+
+<body>
+<img src="media/nav-bar.jpg" alt="mock nav bar" class="mocknavbar hidemobile-showdesktop">
+<img src="media/mnav-bar.jpg" alt="mock mobile nav bar" class="mocknavbar hidedesktop-showmobile">
+
+<div class="interactive-container">
+
+<h1>The incredible turnover in Trump&#39;s Cabinet in 1 photo</h1>
+
+<div class="story-breakout">
+	<p>When President Trump delivers his second official State of the Union address he'll be speaking to a very different audience. Democrat Nancy Pelosi, the newly elevated Speaker of the House will be behind him and a new Democratic majority, the most diverse Congress in history, will be before him.</p>
+	<p>But there will be many new faces even among the President's supporters.</p>
+	<p>Since his last address, eight of Trump's Cabinet secretaries have either resigned of been sacked.</p>
+	<h3>State of the Union, 2018</h3>
+</div>
+
+
+</div>
+
+<div class="container">
+
+	<div class="before-img">
+			<img src=" " alt="State of the Union, 2018" />
+	</div>
+
+	<div class="after-img">
+		<img src=" " alt="State of the Union, 2018 with callouts" />
+  </div>
+
+</div>
+
+<div class="interactive-container">
+	<div class="fullwidth-image-bg-caption">
+		<span>Former cabinet members highlighted</span><br/>
+		1st row: <span>White House chief of staff John Kelly</span>, DHS Secretary Kirstjen Nielsen, <span>Veterans Sec, David Shulkin</span>, Education Secretary Betsey DeVos, <span>Interior Secretary Ryan Zinke</span>, Attorney General Jeff Sessions, <span>Secretary of Defense James Mattis</span>, Treasury Secretary Steven Mnuchin, <span>Secretary of State Rex Tillerson</span>, Chief Justice John Roberts, Justice Steven Breyer, Justice Elena Kagan, Justice Neil Gorsuch, Gen. Joseph Dunford, Gen. David Goldfein<br/><br/>
+		2nd row: <span>US Ambassador to the UN Nikki Haley</span>, US Trade Representative Robert Lighthizer, <span>EPA Director Scott Pruitt</span>, OMB Director Mick Mulvaney, Energy Secretary Rick Perry, Transportation Secretary Elaine Chao, HUD Secretary Ben Carson, HHS Secretary Alex Azar Labor Secretary Alex Acosta, Commerce Secretary Wilbur Ross
+	</div>
+
+
+	<div class="story-breakout">
+		<h3>What happened to all these people?</h3>
+		<ul>
+			<li><strong>Secretary of State Rex Tillerson</strong> was replaced by Mike Pompeo after repeated disagreements with Trump.</li>
+			<li><strong>VA Secretary David Shulkin</strong> was a holdover from the Obama administration and among the first to go.</li>
+			<li><strong>Attorney General Jeff Sessions</strong> was forced out, never able to make Trump happy after recusing himself from the Russia investigation.</li>
+			<li><strong>EPA Director Scott Pruitt</strong> was let go after an increasing number of scandals and investigations.</li>
+			<li><strong>Interior Secretary Ryan Zinke</strong> had <a href="https://www.cnn.com/2018/12/15/politics/ryan-zinke/index.html" target="_blank">similar problems</a>.</li>
+			<li><strong>White House Chief of Staff John Kelly</strong> left, after months of frustration and <a href="https://www.cnn.com/2018/12/08/politics/donald-trump-john-kelly/index.html" target="_blank">losing the President's faith</a>.</li>
+			<li><strong>US Ambassador to the UN Nikki Haley</strong> left with her reputation intact. <a href="https://www.cnn.com/2018/10/10/politics/nikki-haley-donald-trump-election-2020-2024/index.html" target="_blank">She got a sendoff from Trump</a>.</li>
+			<li><strong>Defense Secretary James Mattis</strong> <a href="https://www.cnn.com/2018/12/24/politics/mattis-resignation-narrative/index.html" target="_blank">resigned</a> in spectacular fashion, with a not subtle letter after disagreeing with the President's foreign policy regarding the military.</li>
+			<li>Democrat <strong>Nancy Pelosi</strong>, the newly elevated House speaker will be behind him and a new Democratic majority, the most diverse Congress in history, will be before him.</li>
+		</ul>
+
+		<h3>Who are the new cabinet members?</h3>
+		<p>
+			Several Cabinet secretaries have switched jobs. Office of Management and Budget director Mick Mulvaney is now also acting chief of staff. Mike Pompeo moved from CIA director to secretary of state. Several of the departed secretaries have not been permanently replaced. Andrew Wheeler has been nominated as Environmental Protection Agency administrator.
+		</p>
+		<p>
+			William Barr has been nominated as attorney general. He would replace acting AG Matthew Whitaker. Heather Nauert has been nominated to be US ambassador to the United Nations, but that position has been removed from the Cabinet.
+		</p>
+		<p>
+			Robert Wilkie was confirmed to be veterans affairs secretary. Acting Secretary of the Interior David Berhnardt has been nominated to permanently fill that post as well.
+		</p>
+		<p>
+			Patrick Shanahan was elevated to be the acting defense secretary since Mattis left the administration. No one has yet been nominated to lead the Pentagon on a more permanent basis.
+		</p>
+		<p>
+			Trump's Cabinet has undergone more turnover than any other President in recent memory, according to data compiled by Brookings Institution researchers. They tabulate that 65% of his top aides have been replaced at least once.
+		</p>
+		<p>
+			That's more turnover for Trump in two years than President George W. Bush saw in eight years. It's not much less than Bill Clinton (73%) and Barack Obama (71%) saw in eight years.
+		</p>
+	</div>
+
+
+<!-- D3 -->
+<script src='js/d3.v4.min.js'></script>
+
+<!-- IMAGE HEIGHT -->
+<script>
+
+// using d3 for convenience
+//var container = d3.select('.scroll');
+//var graphic = container.select('.scroll__graphic');
+var beforeImg = d3.select('.before-img');
+var afterImg = d3.select('.after-img');
+
+beforeImg.select('img').attr('src', function() {
+	var width = window.innerWidth || window.outerWidth || document.body.clientWidth;
+	var domain = 0;
+
+	var breakpoints = [{
+	  size: 639,
+	  img: "media/SOTU2017_small-320@2x-100.jpg"
+	}, {
+	  size: 640,
+	  img: "media/SOTU2017_medium-640@2x-100.jpg"
+	},{
+	  size: 780,
+	  img: "media/SOTU2017_medium-780@2x-100.jpg"
+	}, {
+	  size: 930,
+	  img: "media/SOTU2017_wide-930@2x-100.jpg"
+	}, {
+	  size: 1100,
+	  img: "media/SOTU2017_wide-1100@2x-100.jpg"
+	}];
+
+	for (var i = 0; i < breakpoints.length; i++) {
+
+	  if (width >= breakpoints[i].size) {
+	    domain = i;
+	  }
+
+	}
+
+	var breakpoint = breakpoints[domain];
+
+	// these logs are just to show you if it matches up how you want
+	console.log(breakpoint, 'breakpoint');
+	console.log(width, 'window width');
+
+	return breakpoint.img;
+})
+
+afterImg.select('img').attr('src', function() {
+	var width = window.innerWidth || window.outerWidth || document.body.clientWidth;
+	var domain = 0;
+
+	var breakpoints = [{
+	  size: 639,
+	  img: "media/SOTU2017_small-320@2x.png"
+	}, {
+	  size: 640,
+	  img: "media/SOTU2017_medium-640@2x.png"
+	},{
+	  size: 780,
+	  img: "media/SOTU2017_medium-780@2x.png"
+	}, {
+	  size: 930,
+	  img: "media/SOTU2017_wide-930@2x.png"
+	}, {
+	  size: 1100,
+	  img: "media/SOTU2017_wide-1100@2x.png"
+	}];
+
+	for (var i = 0; i < breakpoints.length; i++) {
+
+	  if (width >= breakpoints[i].size) {
+	    domain = i;
+	  }
+
+	}
+
+	var breakpoint = breakpoints[domain];
+
+	// these logs are just to show you if it matches up how you want
+	console.log(breakpoint, 'breakpoint');
+	console.log(width, 'window width');
+
+	return breakpoint.img;
+})
+
+
+</script>
+
+<!--SCROLLAMA -->
+<script src='https://unpkg.com/intersection-observer'></script>
+<script src='js/scrollama.min.js'></script>
+
+<script>
+
+// initialize the scrollama
+var scroller = scrollama();
+
+function handleStepEnter(response) {
+	// response = { element, direction, index }
+	response.element.style.opacity = 1;
+
+}
+
+function handleStepExit(response) {
+// response = { element, direction, index }
+	if (response.direction === 'up'){
+		response.element.style.opacity = 0;
+	}
+}
+
+function init() {
+
+		scroller.setup({
+				step: '.container .after-img',
+				debug: false,
+				offset: 0.25,
+			})
+				.onStepEnter(handleStepEnter)
+				.onStepExit(handleStepExit);
+		}
+
+// kick things off
+init();
+
+
+
+</script>
+
+</div> <!-- END .interactive-container -->
+
+
+<!-- PAGE JAVASCRIPT -->
+<script src="js/cnnix-trump-cabinet-changes-photos-min.js"></script>
+
+</body>
+</html>
