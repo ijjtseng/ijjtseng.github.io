@@ -321,13 +321,15 @@ footer .copyright {
   background-size: 170%;
 }
 
-#project-17 {
+
+#project-18 {
   background: url('/images/18_sotu-looped.gif') no-repeat top;
   -webkit-background-size: 170%;
   -moz-background-size: 170%;
   -o-background-size: 170%;
   background-size: 170%;
 }
+
 
 .container-intro {
   display: grid;
