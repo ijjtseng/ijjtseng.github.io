@@ -364,13 +364,13 @@ footer .copyright {
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    align-content: space-between;
+    align-content: space-around;
     height: 2200px;
   }
 
   .container-flex-child {
     width: 45%;
-    margin: 1rem;
+    padding-bottom: 1rem;
   }
 }
 
@@ -418,7 +418,7 @@ footer .copyright {
   }
 
   .container-flex {
-    height: 910px;
+    height: 960px;
   }
 
   .container-flex-child {
